@@ -1,0 +1,29 @@
+env:
+  browser: true
+  commonjs: true
+  es6: true
+  node: true
+parser: '@typescript-eslint/parser'
+plugins:
+  - '@typescript-eslint'
+  - import
+extends:
+  - 'plugin:@typescript-eslint/recommended'
+  - '@lightyears1998/eslint-config-lightyears-style'
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+  JSX: readonly
+parserOptions:
+  ecmaVersion: 2023
+  presets:
+  - '@babel/preset-env'
+  - '@babel/preset-typescript'
+  - '@babel/preset-react'
+rules:
+  indent:
+    - warn
+    - 2
+    - SwitchCase: 1
+  no-console:
+    - off

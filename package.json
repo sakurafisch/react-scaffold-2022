@@ -1,0 +1,40 @@
+{
+  "name": "react-scaffold",
+  "version": "0.0.1",
+  "description": "This is a general template for using react to create single page application.",
+  "main": "index.ts",
+  "author": "sakurafisch <sakurafisch@gmail.com>",
+  "license": "Unlicense",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --open",
+    "lint": "yarn run eslint src --ext .ts --ext .tsx --ext .js --ext .jsx"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@babel/register": "^7.18.9",
+    "@lightyears1998/eslint-config-lightyears-style": "^1.5.0",
+    "@types/node": "^18.7.14",
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
+    "@types/webpack": "^5.28.0",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.23.0",
+    "eslint-plugin-import": "^2.26.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.1"
+  }
+}
