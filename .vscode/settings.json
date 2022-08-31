@@ -2,5 +2,6 @@
   "editor.codeActionsOnSave": {"source.fixAll.eslint": true},
   "editor.formatOnSaveMode": "modifications",
   "javascript.format.enable": false,
-  "typescript.format.enable": false
+  "typescript.format.enable": false,
+  "files.eol": "\n"
 }
